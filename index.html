@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/styles/reset.css">
+  <link rel="stylesheet" href="./src/styles/style.css">
   <title>BeDev - Bemol</title>
 </head>
 <body>
@@ -37,27 +39,27 @@
           <img src="./src/img/Regina1.png" alt="Dona Regina mexendo no celular">
         </div>
         <div class="bonus__right">
-          <div class="itemBonus__img">
+          <div class="item__bonus">
             <img src="./src/img/Vantagens01.png" alt="Acumulo de pontos de bonus">
             <span>Acúmulo de pontos de bônus</span>
           </div>
-          <div class="itemBonus__img">
+          <div class="item__bonus">
             <img src="./src/img/Vantagens02.png" alt="Atendimento nas lojas">
             <span>Atendimento nas Lojas</span>
           </div>
-          <div class="itemBonus__img">
+          <div class="item__bonus">
             <img src="./src/img/Vantagens03.png" alt="Pagamento de parcelas">
             <span>Pagamento de parcelas Bemol</span>
           </div>
-          <div class="itemBonus__img">
+          <div class="item__bonus">
             <img src="./src/img/Vantagens04.png" alt="Depósito nas Lojas Bemol e Bemol Farma">
             <span>Depósito nas Lojas Bemol e Bemol Farma</span>
           </div>
-          <div class="itemBonus__img">
+          <div class="item__bonus">
             <img src="./src/img/Vantagens05.png" alt="Zero anuidade">
             <span>Zero anuidade</span>
           </div>
-          <div class="itemBonus__img">
+          <div class="item__bonus">
             <img src="./src/img/Vantagens06.png" alt="Tranferencias via PIX">
             <span>Tranferencias via PIX</span>
           </div>
@@ -85,8 +87,8 @@
       <section class="simulatorBonus">
         <div class="simulatorBonus__left">
           <h4>Simulador de Bônus Bemol</h4>
-          <div class="simulatorBonus__inputValue">
-            <div>
+          <div class="simulatorBonus__inputs">
+            <div class="simulatorBonus__inputValue">
               <label for="valorInput">Valor</label>
               <input id="valorInput" name="valorInput" type="text" placeholder="Digite o valor desejado">
               <span>A cada R$ 40,00 você ganha 1 ponto de Bônus Bemol</span>
@@ -102,20 +104,18 @@
         <div class="simulatorBonus__right">
           <div class="result__day">
             <span>Você vai ganhar por dia:</span>
-            <div>
+            <div class="display__result">
               <img src="./src/img/PontosBonus 1.png" alt="Pontos Bônus">
               <span>0</span>
             </div>
           </div>
           <div class="result__month">
             <span>pontos de Bônus Bemol em meses</span>
-            <div>
-              <div>
-                <img src="./src/img/Estrelas.png" alt="Pontos ganhos em meses">
-                <span>0</span>
-              </div>
-              <span>pontos de Bônus Bemol</span>
+            <div class="display__result">
+              <img src="./src/img/Estrelas.png" alt="Pontos ganhos em meses">
+              <span>0</span>
             </div>
+            <span>pontos de Bônus Bemol</span>
           </div>
         </div>
       </section>

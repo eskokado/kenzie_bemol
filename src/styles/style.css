@@ -1,0 +1,65 @@
+.container{}
+
+.header{}
+
+.main{}
+/* PRIMEIRA SEÇÃO */
+.contaBemol{}
+.contaBemol__left{}
+.contaBemol__left h1{}
+.contaBemol__left p{}
+.contaBemol__left a{}
+.contaBemol__right{}
+.contaBemol__right img{}
+/* SEGUNDA SEÇÃO */
+.bonus {}
+.bonus__left{}
+.bonus__left h6{}
+.bonus__left img{}
+.bonus__right{}
+.item__bonus{}
+.item__bonus img{}
+.item__bonus span{}
+/* TERCEIRA SEÇÃO */
+.pointBonus{}
+.pointBonus__left{}
+.pointBonus__left img{}
+.pointBonus__right{}
+.pointBonus__right p{}
+.pointBonus__right img{}
+/* QUARTA SEÇÃO */
+.pointProfit{}
+.pointProfit img{}
+/* QUINTA SEÇAO */
+.simulatorBonus{}
+.simulatorBonus__left{}
+.simulatorBonus__left h4{}
+.simulatorBonus__inputs{}
+.simulatorBonus__inputs button{}
+.simulatorBonus__inputValue{}
+.simulatorBonus__inputValue label{}
+.simulatorBonus__inputValue input{}
+.simulatorBonus__inputValue span{}
+.simulatorBonus__inputTime {}
+.simulatorBonus__inputTime label{}
+.simulatorBonus__inputTime span{}
+.simulatorBonus__inputTime input{}
+.simulatorBonus__right{}
+.result__day{}
+.result__day span{}
+.result__month{}
+.result__month span{}
+.display__result{}
+.display__result img{}
+.display__result span{}
+/*SEXTA SEÇÃO  */
+.openAccountAndFaq{}
+.openAccountAndFaq h3{}
+.openAccountAndFaq__button{}
+.openAccountAndFaq__button a{}
+/* FOOTER */
+.footer{}
+.footer img{}
+
+
+
